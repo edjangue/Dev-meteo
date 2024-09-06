@@ -1,0 +1,31 @@
+.Grid-box-1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 30px;
+}
+
+.smallBox {
+  background: linear-gradient(to bottom, #353151, #130a27);
+  border: 1px solid #6a6488;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  height: 170px;
+  opacity: 0.8;
+  width: 175px;
+}
+
+.iconParams {
+  display: flex;
+  gap: 10px;
+  padding: 15px 0 0 15px;
+  align-items: baseline;
+}
+
+.val-unit {
+  align-items: flex-end;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  /* margin-top: 30px; */
+}

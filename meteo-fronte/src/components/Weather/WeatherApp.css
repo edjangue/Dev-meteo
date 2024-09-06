@@ -1,0 +1,287 @@
+.Weather-container {
+  align-items: center;
+  display: flex;
+  gap: 110px;
+  justify-content: center;
+  /* min-height: 100vh; */
+}
+
+.centralBox {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  border: 1px solid #6a6488;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 30px;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: 385px;
+  right: 32.7%;
+  opacity: 0.8;
+  position: absolute;
+  top: 16%;
+  width: 375px;
+  z-index: 1;
+}
+
+.Element1 {
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 25px auto;
+  padding-bottom: 30px;
+  width: 90%;
+}
+
+.Element2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.sub-Element2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Items {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.subData {
+  display: flex;
+  gap: 5px;
+}
+
+.Temp-icon {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.tempdata {
+  display: flex;
+}
+
+.unit {
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.temp-desc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Content {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  /* margin-top: 58px; */
+}
+
+.MainContent {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 75px;
+  justify-content: center;
+}
+
+.Grid-box-2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 30px 25px;
+}
+
+.head1 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.smallBox-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 80%;
+}
+
+.temp-days {
+  align-items: flex-end;
+  display: flex;
+  gap: 50px;
+}
+
+.smallBox1 {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 25px;
+  bottom: 21%;
+  height: 170px;
+  opacity: 0.8;
+  position: absolute;
+  right: 40.9%;
+  width: 175px;
+  z-index: 1;
+}
+
+.Box {
+  align-items: center;
+  background: linear-gradient(to bottom, #3a3259, #281e40, #130b25);
+  border: 1px solid #6a6488;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+  opacity: 0.8;
+  width: 300px;
+}
+
+.descTemp {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.variants {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.Box1 {
+  background: linear-gradient(to bottom, #3a3259, #281e40, #130b25);
+  border: 1px solid #6a6488;
+  border-radius: 30px;
+  height: 480px;
+  opacity: 0.8;
+  width: 430px;
+}
+
+.Icon-temp {
+  align-items: center;
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.tempStats {
+  display: flex;
+  flex-direction: column;
+}
+
+.weatherTemp {
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.weatherTemp1 {
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.weatherTemp2 {
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.high-low {
+  display: flex;
+  gap: 5px;
+}
+
+.desc-prop {
+  display: flex;
+  gap: 5px;
+}
+
+.res {
+  display: flex;
+}
+
+.city-desc {
+  display: flex;
+  gap: 180px;
+  justify-content: center;
+}
+
+.city-country {
+  align-items: center;
+  display: flex;
+  gap: 5px;
+}
+
+.innerContent {
+  align-items: center;
+  background: linear-gradient(to bottom, #3a3259, #281e40, #130b25);
+  border: 1px solid #6a6488;
+  border-radius: 30px;
+  display: flex;
+  height: 210px;
+  justify-content: center;
+  margin-left: 10px;
+  margin-top: 50px;
+  width: 408px;
+}
+
+.Sub-content {
+  display: flex;
+  gap: 15px;
+}
+
+.dayStats {
+  align-items: center;
+  background-color: #312853;
+  border: 1px solid #6a6488;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  height: 160px;
+  justify-content: center;
+  opacity: 0.8;
+  width: 62px;
+}
+
+.day-icon {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+select {
+  min-width: 300px;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 18px;
+}

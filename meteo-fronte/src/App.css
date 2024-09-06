@@ -1,0 +1,10 @@
+.App {
+  align-items: center;
+  background: linear-gradient(to bottom, #130428, #050112);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 98vh;
+  gap: 20px;
+  justify-content: center;
+}

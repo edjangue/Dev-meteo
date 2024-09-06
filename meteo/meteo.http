@@ -1,0 +1,12 @@
+###
+GET http://api.weatherapi.com/v1/current.json?key=6995cf41609b47b5b0f150348241405&q=Yaoundé&aqi=no
+
+###
+GET http://localhost:8080/cities
+###
+POST http://localhost:8080/meteo
+Content-Type: application/x-www-form-urlencoded
+
+city=douala
+
+
